@@ -9,6 +9,7 @@
     tools:context=".EqSelect" >
     
      <TextView
+         android:id="@+id/equation"
          android:layout_width="fill_parent"
          android:layout_height="wrap_content"
          android:gravity="center"
@@ -42,19 +43,21 @@
              android:paddingTop="30dp" >
 
              <Button
+                 android:id="@+id/btn1"
                  android:layout_width="fill_parent"
                  android:layout_height="wrap_content"
                  android:layout_weight="1"
-                 android:onClick="startCalc"
                  android:text="@string/eq1"
                  android:textSize="14sp"
-                 android:typeface="serif" />
+                 android:typeface="serif"
+                 android:onClick="selectEq" />
 
              <Button
+                 android:id="@+id/btn2"
                  android:layout_width="fill_parent"
                  android:layout_height="wrap_content"
                  android:layout_weight="1"
-                 android:onClick="startCalc"
+                 android:onClick="selectEq"
                  android:text="@string/eq2"
                  android:typeface="serif" />
          </LinearLayout>
@@ -67,19 +70,21 @@
              android:paddingTop="30dp" >
 
              <Button
+                 android:id="@+id/btn3"
                  android:layout_width="fill_parent"
                  android:layout_height="wrap_content"
                  android:layout_weight="1"
-                 android:onClick="startCalc"
+                 android:onClick="selectEq"
                  android:text="@string/eq3"
                  android:textSize="14sp"
                  android:typeface="serif" />
 
              <Button
+                 android:id="@+id/btn4"
                  android:layout_width="fill_parent"
                  android:layout_height="wrap_content"
                  android:layout_weight="1"
-                 android:onClick="startCalc"
+                 android:onClick="selectEq"
                  android:text="@string/eq4"
                  android:typeface="serif" />
          </LinearLayout>
@@ -104,4 +109,5 @@
 	         android:typeface="serif" />
 	     
      </LinearLayout>
+     
 </LinearLayout>
