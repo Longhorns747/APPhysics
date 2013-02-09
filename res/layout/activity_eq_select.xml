@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:background="@drawable/Chalkboard-background"
+    android:background="@drawable/chalkboardbackground"
     android:gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".EqSelect" >
