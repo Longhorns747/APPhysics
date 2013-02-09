@@ -41,15 +41,6 @@
              android:gravity="center"
              android:orientation="horizontal"
              android:paddingTop="30dp" >
-
-             <Button
-               android:id="@+id/var1"
-               android:layout_width="0dp"
-               android:layout_height="wrap_content"
-               android:layout_weight="1"
-               android:onClick="startCalc"
-               android:text="@string/var"
-               android:typeface="serif" />
              
              <EditText android:id="@+id/varfield1"
 		        android:layout_width="0dp"
@@ -58,15 +49,6 @@
 		        android:textColor="#FFF"
 		        android:hint="@string/var"
 		        android:paddingBottom="10dp"/>
-
-             <Button
-                 android:id="@+id/var2"
-                 android:layout_width="0dp"
-                 android:layout_height="wrap_content"
-                 android:layout_weight="1"
-                 android:onClick="startCalc"
-                 android:text="@string/var"
-                 android:typeface="serif" />
              
              <EditText android:id="@+id/varfield2"
 		        android:layout_width="0dp"
@@ -83,15 +65,6 @@
              android:gravity="center"
              android:orientation="horizontal"
              android:paddingTop="30dp" >
-
-             <Button
-                 android:id="@+id/var3"
-                 android:layout_width="0dp"
-                 android:layout_height="wrap_content"
-                 android:layout_weight="1"
-                 android:onClick="startCalc"
-                 android:text="@string/var"
-                 android:typeface="serif" />
              
              <EditText android:id="@+id/varfield3"
 		        android:layout_width="0dp"
@@ -100,15 +73,6 @@
 		        android:textColor="#FFF"
 		        android:hint="@string/var"
 		        android:paddingBottom="10dp"/>
-
-             <Button
-                 android:id="@+id/var4"
-                 android:layout_width="0dp"
-                 android:layout_height="wrap_content"
-                 android:layout_weight="1"
-                 android:onClick="startCalc"
-                 android:text="@string/var"
-                 android:typeface="serif" />
              
              <EditText android:id="@+id/varfield4"
 		        android:layout_width="0dp"
