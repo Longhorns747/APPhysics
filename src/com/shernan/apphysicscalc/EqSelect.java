@@ -45,10 +45,6 @@ public class EqSelect extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		//Need to set up eqMap with Buttons and Equations
 		//Need to get a loop here
-		//Button btn1 = (Button) findViewById(R.id.btn1);
-		//Button btn2 = (Button) findViewById(R.id.btn2);
-		//Button btn3 = (Button) findViewById(R.id.btn3);
-		//Button btn4 = (Button) findViewById(R.id.btn4);
 		
 		//Map the buttons and Equation Data
 		eqMap.put(Equation.EQ1.eq, Equation.EQ1);

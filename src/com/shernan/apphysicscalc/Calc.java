@@ -71,31 +71,18 @@ public class Calc extends Activity {
 	}
 
 	public void startCalc(View v){
+		//Reset any non-inputted strings to 0.0
 		stringToZero();
+		
+		//Gathering all variables
 		double v1 = Double.parseDouble(var1.getText().toString());
 		double v2 = Double.parseDouble(var2.getText().toString());
 		double v3 = Double.parseDouble(var3.getText().toString());
 		double v4 = Double.parseDouble(var4.getText().toString());
 		
-		if(eqNum == 1){
-			calc1(v1, v2, v3, v4);
-		}
-	}
-	
-	public void calc1(Double d, Double v0, Double t, Double a){
-		Double res = Double.valueOf(0);
-		
-		if(d == 0){
-			d = Double.valueOf(1);
-			var1.setText(d.toString());
-			res = d;
-		}
-		else if(v0 == 0){
-			v0 = Double.valueOf(1);
-			res = v0;
-		}
-		
-		((TextView)findViewById(R.id.ans)).setText(res.toString());
+		//Use CalcSelector class
+		Double result = Double.valueOf(CalcSelector.calc(v1, v2, v3, v4, eqNum));
+		((TextView)findViewById(R.id.ans)).setText(result.toString());
 	}
 	
 	public void stringToZero(){
