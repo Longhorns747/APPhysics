@@ -118,16 +118,17 @@
 	         android:typeface="serif" />
 	     
 	     <TextView
-	         android:id="@+id/unit"
+	         android:id="@+id/units"
 	         android:layout_width="wrap_content"
 	         android:layout_height="wrap_content"
-	         android:textSize="22sp"
-	         android:text="@string/units"
 	         android:gravity="center"
-	         android:textStyle="italic"
-	         android:textColor="#FFF"
 	         android:paddingLeft="15sp"
+	         android:text="@string/units"
+	         android:textColor="#FFF"
+	         android:textSize="22sp"
+	         android:textStyle="italic"
 	         android:typeface="serif" />
+
 	     </LinearLayout>
 	     
      </LinearLayout>

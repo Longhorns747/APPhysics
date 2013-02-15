@@ -3,9 +3,10 @@
 
     <string name="app_name">APPhysicsCalc</string>
     <string name="title">AP Physics Calculator</string>
+    <string name="titlebar">AP Physics Calc</string>
     <string name="menu_settings">Settings</string>
     <string name="description">Select an equation</string>
-    <string name="description2">Enter Known Data (Three Variables)</string>
+    <string name="description2">Enter Known Data (Leave unknown variable blank, squares will be calculated for you)</string>
     <string name="kinematics">Newton + Kinematics</string>
     <string name="var">var</string>
     <string name="calculate">Calculate</string>

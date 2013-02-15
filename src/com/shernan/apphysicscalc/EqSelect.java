@@ -9,8 +9,14 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * Equation Select Activity asks user for proper equation to solve with
+ * @author Ethan Shernan
+ * @version 1.0
+ */
 public class EqSelect extends Activity {
 	
+	//Constants to help with data transfer
 	public static final String EQ = "com.shernan.EQ";
 	public static final String EQNUM = "com.shernan.EQNUM";
 	public static final String VAR1 = "com.shernan.VAR1";
@@ -28,6 +34,7 @@ public class EqSelect extends Activity {
 		public final String eq, v1, v2, v3, v4;
 		public int eqNum;
 		
+		//Set proper data
 		Equation(String eq, String var1, String var2, String var3, String var4, int num){
 			this.eq = eq;
 			v1 = var1;
@@ -63,6 +70,11 @@ public class EqSelect extends Activity {
 		return true;
 	}
 	
+	/**
+	 * Selects the correct equation and passes along appropriate information to calc
+	 * activity
+	 * @param v
+	 */
 	public void selectEq(View v){
 		Button btn = (Button) v;
 		Intent i = new Intent(this, Calc.class);	
