@@ -48,7 +48,8 @@
 		        android:layout_weight="2"
 		        android:textColor="#FFF"
 		        android:hint="@string/var"
-		        android:paddingBottom="10dp"/>
+		        android:paddingBottom="10dp"
+		        android:inputType="number"/>
              
              <EditText android:id="@+id/varfield2"
 		        android:layout_width="0dp"
@@ -56,7 +57,8 @@
 		        android:layout_weight="2"
 		        android:textColor="#FFF"
 		        android:hint="@string/var"
-		        android:paddingBottom="10dp"/>
+		        android:paddingBottom="10dp"
+		        android:inputType="number"/>
          </LinearLayout>
 
          <LinearLayout
@@ -72,7 +74,8 @@
 		        android:layout_weight="2"
 		        android:textColor="#FFF"
 		        android:hint="@string/var"
-		        android:paddingBottom="10dp"/>
+		        android:paddingBottom="10dp"
+		        android:inputType="number"/>
              
              <EditText android:id="@+id/varfield4"
 		        android:layout_width="0dp"
@@ -80,7 +83,8 @@
 		        android:layout_weight="2"
 		        android:textColor="#FFF"
 		        android:hint="@string/var"
-		        android:paddingBottom="10dp"/>
+		        android:paddingBottom="10dp"
+		        android:inputType="number"/>
          </LinearLayout>
          
      </LinearLayout>

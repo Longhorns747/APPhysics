@@ -126,10 +126,10 @@ public class Calc extends Activity {
 		}
 		
 		//Use CalcSelector class
-		Double result = Double.valueOf(CalcSelector.calc(v1, v2, v3, v4, eqNum, varNum));
+		String result = CalcSelector.calc(v1, v2, v3, v4, eqNum, varNum);
 		
 		//Fix divide by zero weirdness
-		if(result.toString().equals("NaN")){
+		if(result.equals("NaN")){
 			
 			//Builds and displays a dialog
 			AlertDialog.Builder builder = new AlertDialog.Builder(this);
@@ -145,7 +145,7 @@ public class Calc extends Activity {
 		}
 		else{
 			//Set answer and Units
-			((TextView)findViewById(R.id.ans)).setText(result.toString());
+			((TextView)findViewById(R.id.ans)).setText(result);
 			((TextView)findViewById(R.id.units)).setText(CalcSelector.getUnits());
 			
 			//Clean up solved variable text box
